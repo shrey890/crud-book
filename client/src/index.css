@@ -1,0 +1,23 @@
+.app {
+	height: 100vh;
+	padding: 0 100px;
+	display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.books{
+  display: flex;
+  gap: 10px;
+}
+.book{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+img{
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  background-color: aliceblue;
+}
